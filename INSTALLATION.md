@@ -2,7 +2,7 @@
 
 This guide provides step-by-step instructions for installing and running the QSAR Molecular Visualization Tool on different operating systems.
 
-## 🚀 Quick Start (All Platforms)
+## Quick Start (All Platforms)
 
 ### Step 1: Download the Repository
 1. Click the green "Code" button on GitHub
@@ -20,7 +20,7 @@ Choose your preferred method based on your operating system.
 
 ---
 
-## 📱 Windows Installation
+## Windows Installation
 
 ### Method 1: One-Click Launch (Recommended)
 1. **Download and extract** the repository
@@ -47,7 +47,7 @@ Choose your preferred method based on your operating system.
 
 ---
 
-## 🍎 macOS Installation
+## macOS Installation
 
 ### Prerequisites
 1. **Install Python 3.9+**:
@@ -84,7 +84,7 @@ Choose your preferred method based on your operating system.
 
 ---
 
-## 🐧 Linux Installation
+## Linux Installation
 
 ### Ubuntu/Debian
 1. **Install Python 3.9+**:
@@ -123,7 +123,7 @@ Choose your preferred method based on your operating system.
 
 ---
 
-## 🔧 Advanced Installation
+## Advanced Installation
 
 ### Using Virtual Environment (Recommended)
 ```bash
@@ -160,47 +160,7 @@ streamlit run qsar_web_app.py
 
 ---
 
-## ✅ Verification
-
-After installation, run the verification script:
-```bash
-python verify_setup.py
-```
-
-You should see:
-```
-============================================================
-QSAR GUI Setup Verification
-============================================================
-🐍 Checking Python version...
-✅ Python 3.12.3 - Compatible
-
-📦 Checking dependencies...
-✅ Streamlit 1.37.1 - Installed
-
-📁 Checking data files...
-✅ Alpha_CE_Combined: 55 PDB files
-✅ Beta_CE_Combined: 55 PDB files
-✅ Alpha_T50_Combined: 51 PDB files
-✅ Beta_T50_Combined: 51 PDB files
-✅ Total PDB files: 212
-
-🔧 Checking application...
-✅ Application imports successfully
-✅ Ligand detection working: 55 ligands found
-
-🚀 Checking launch scripts...
-✅ run_app.bat - Present
-✅ run_app.ps1 - Present
-
-============================================================
-Verification Results: 5/5 checks passed
-🎉 All checks passed! Your QSAR GUI is ready to use.
-```
-
----
-
-## 🆘 Common Issues & Solutions
+## Common Issues & Solutions
 
 ### Python Issues
 - **"Python not found"**: Install Python 3.9+ from [python.org](https://python.org)
@@ -224,7 +184,7 @@ Verification Results: 5/5 checks passed
 
 ---
 
-## 📞 Getting Help
+## Getting Help
 
 If you encounter issues:
 
@@ -242,6 +202,6 @@ For additional support, please include:
 
 ---
 
-## 🎯 Success!
+## Success!
 
 Once you see the verification script pass all checks, you're ready to use the QSAR GUI! The application will provide interactive 3D visualization of 212 PFAS ligand-receptor complexes with full functionality. 
