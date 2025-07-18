@@ -230,12 +230,4 @@ This application is designed for research and educational use. Please cite the o
 
 ## 📞 Contact
 
-For questions or issues: Contact the development team
-
----
-
-## 🎯 **Ready to Use!**
-
-This application provides interactive visualization of PFAS ligand-receptor complexes for research and educational purposes. The molecular structures represent computational docking results and should be validated experimentally for research applications.
-
-**No additional setup required** - just download, run, and explore! 🚀 
+For questions or issues: Contact Dr. Sivanesan Dakshanamurthy, PhD., MBA (sivanesan.dakshanamurthy@georgetown.edu)
